@@ -16,3 +16,11 @@ def connectCassandra():
         print(row[0])
     else:
         print("An error occurred.")
+
+def connectRedis():
+    myRedis = redis.Redis(
+        host= CONFIG.redis_host,
+        port= CONFIG.redis_port,
+        password= CONFIG.redis_password
+    )
+    return myRedis
