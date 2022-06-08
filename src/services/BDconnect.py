@@ -15,9 +15,10 @@ def connectCassandra():
     return session
 
 def connectRedis():
-    myRedis = redis.Redis(
+    myRedis = redis.StrictRedis(
         host= CONFIG.redis_host,
         port= CONFIG.redis_port,
-        password= CONFIG.redis_password
+        password= CONFIG.redis_password,
+        decode_responses=True
     )
     return myRedis
