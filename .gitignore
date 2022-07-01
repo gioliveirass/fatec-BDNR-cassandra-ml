@@ -1,3 +1,4 @@
-src/services/config.py
-src/services/__pycache__
-src/services/secure-connect-fatec.zip
+src/config.py
+src/__pycache__
+src/secure-connect-fatec.zip
+src/controllers/__pycache__
