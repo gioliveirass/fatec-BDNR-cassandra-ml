@@ -18,8 +18,8 @@ Atividade desenvolvida durante a aula de Banco de Dados Não Relacional da Fatec
 
 Antes de tudo, baixe as dependências do projeto com o comando `pip install -r requirements.txt`.
 
-Para autenticar com os bancos de dados utilizados, certifique-se de criar um arquivo config.py dentro da pasta src/ (baseado no arquivo config.example.py já existente) e adicionar os dados corretos dos bancos de dados.
+Para autenticar com os bancos de dados utilizados, certifique-se de criar um arquivo `config.py` dentro da pasta `src/` (baseado no arquivo `config.example.py` já existente) e adicionar os dados corretos dos bancos de dados.
 
-Para autenticar com o Redis também é necessário ter o arquivo .zip do SECURE CONNECT BUNDLE instalado na pasta src/.
+Para autenticar com o Redis também é necessário ter o arquivo `.zip` do SECURE CONNECT BUNDLE instalado na pasta `src/`.
 
 Uma vez que os dados estiverem corretos, execute o arquivo `src/main.py`.
